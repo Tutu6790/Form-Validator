@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/form.css"> 
+    <title>Ab_designs</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <img src="IMG-20200620-WA0046.jpg" alt="Ab_designs"> <br>
+        <h1>Ab_designs</h1>
+        <!-- <div>
+            <a href="#"> <i  class="fab fa-facebook-square"></i></a>
+            <a href="#"> <i class="fab fa-twitter-square"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+        </div> -->
+    </header>
+    <div id="inline">
+    <h2>Sign Up To Continue</h2><br>
+    <form id="myForm" name="myForm" onsubmit="return validate()" method="post">
+        <label for="name">Full Name</label><br>
+        <input type="text" name="name" id="name" placeholder="first name" required><br>
+        <div class="error" id="nameErr"></div>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Input email" required><br>
+        <div class="error" id="emailErr"></div>
+
+        <label for="num">Phone Number</label><br>
+        <input type="number" name="num" id="num" min="0"  required><br>
+        <div class="error" id="numberErr"></div>
+
+        <label for="psw">Password</label><br>
+        <input type="password" name="psw" id="password" required><br>
+         <div id="psw"></div>
+
+        <label for="psw">Confirm Password</label><br>
+        <input type="password" name="conPsw" id="password" required><br>
+        <div id="confirm"></div><br>
+
+        <input type="submit"  value="Sign Up">
+        </form>
+        <br>
+        <p id="block">Already have an account? 
+        <a href="#">Log in</a></p>
+        <h1 class="or">OR</h1>
+ <br>
+        <p class="cool">Wanna see something cool?</p>
+        <button><a href = "https://www.bit.ly/exploredebbie" target ="_blank" id="button">Check This Out!</a></button>
+     </div>
+    </div>
+    </div> 
+    <footer>
+        <div>
+            <a href="#"> <i  class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/DeborahOkonu" target="_blank"> <i class="fab fa-twitter-square"></i></a>
+            <a href="https://instagram.com/debbieicezik" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+        &copy; copyright 2020 - Designed By Okonu
+    </footer>
+
+        <script src="JavaScript/form.js"></script>
+        
+
+</body>
+</html>
